@@ -1,29 +1,33 @@
-# Storage and Permission
+### Android Contact App
 
-## Problem Description 
-
-Write unit and instrumentation tests.
-
-### Implementation 1 (In group of 2): 
-
-Build a contact application with pages to show a list of your saved contact, add contacts and a contact details page where you can edit, call, share and delete contacts. Your data store is firebase and two students should share one firebase database. 
+## Development
+A contact application with pages to show a list of your saved contact, add contacts and a contact details page where you can edit, call, share and delete contacts. Contacts are Stored in the Cloud
 
 Expectation: 
 
--   Real Time syncing of contacts for partners 
-
--   Different UI designs and codebase for partners 
 
 -   Call should ask for permission
 
-### Implementation 2: 
+### Implementations : 
 
-Build an application that reads the phone contacts and displays on a list.  
-
-Expectation: 
+The Contact application reads the phone contacts and displays it on a list.  
 
 -   Ask for permission when app is launched 
 
 -   If permission is denied display an error message in a textfield 
 
--   There should be a button to ask again if permission is denied
+-   A floating action button to add contact. the contact details is saved on the cloud
+
+-   swipe left to delete contact
+
+-   swipe right to edit contact details
+
+-   click on any contact to go the details page
+
+
+  ![](app/src/main/res/drawable/screenshot_contact_list.png)
+  ![](app/src/main/res/drawable/screenshot_add_contact_fragment.png)
+  ![](app/src/main/res/drawable/screenshot_swipe.png)
+  ![](app/src/main/res/drawable/screenshot_alertdialog.png)
+  ![](app/src/main/res/drawable/screenshot_updatecontact.png)
+  ![](app/src/main/res/drawable/screenshot_contactdetail.png)
